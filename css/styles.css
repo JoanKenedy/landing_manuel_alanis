@@ -123,11 +123,14 @@ header{
     margin: 10px;
     border-radius: 20px;
     text-align: center;
+    text-decoration: none;
+    font-size: 18px;
 }
 .item_card:nth-child(3) a i{
-  padding-left: 10px;
-  font-size: 17px;
+  margin-right: 7px;
+  font-size: 19px;
 }
+
 
 .sub_item_card{
     display: flex;
@@ -487,15 +490,14 @@ footer{
     .item_card:nth-child(3) a{
         display: block;
         padding: 10px 0px;
-        width: 150px;
+        width: 160px;
         background-color: #fff;
         margin: 10px;
         border-radius: 20px;
         text-align: center;
     }
     .item_card:nth-child(3) a i{
-      padding-left: 10px;
-      font-size: 15px;
+      font-size: 20px;
     }
     
     .sub_item_card{
@@ -701,6 +703,21 @@ footer{
         color: gold;
         height: 2px;
         margin:5px auto 10px auto;
+    }
+    .item_card:nth-child(3) a{
+        display: block;
+        padding: 10px 0px;
+        width: 190px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .item_card:nth-child(3) a i{
+        font-size: 22px;
     }
     .slider h2{
         font-size:30px ;
@@ -908,14 +925,15 @@ footer{
         border-radius: 20px;
         text-align: center;
         transition: 1s;
+        font-size: 16px;
     }
     .item_card:nth-child(3) a:hover{
         transform: scale(1.1);
         transition: 1s;
     }
     .item_card:nth-child(3) a i{
-      padding-left: 10px;
-      font-size: 14px;
+      margin-left: 7px;
+      font-size: 18px;
     }
     .item_card:nth-child(3) h2{
         font-size: 19px;
@@ -928,7 +946,7 @@ footer{
           background-color: #2665EA;
           width: 100%;
           max-width: 900px;
-          height: 570px;
+          height: 670px;
           transition: 1s;
           display: flex;
           justify-content: center;
