@@ -855,6 +855,25 @@ footer{
     .header_uno img{
         max-width: 20%;
     }
+    .header_dos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #2665EA;
+    }
+    .header_dos h1{
+        font-size: 19px;
+    }
+    .header_dos a{
+        display: block;
+        padding: 14px 20px;
+        text-align: center;
+        background-color: #A90AF9;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
     .sub_item_card{
         display: flex;
         justify-content: center;
