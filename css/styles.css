@@ -338,6 +338,8 @@ header{
     margin: auto;
     text-align: center;
     gap:30px;
+    padding: 15px 0px;
+    
 }
 
 .item_values_points i{
@@ -366,6 +368,7 @@ footer{
     width: 100%;
     
     background-color: #eeee;
+   
 }
 .item_footer:nth-child(1){
     display: grid;
