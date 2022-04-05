@@ -228,7 +228,8 @@ header{
 }
 .list{
     width: 100%;
-    background-image: url(../imagenes/background_treatmients.jpg);
+    
+    background-color: #55beee;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -618,8 +619,12 @@ footer{
         display: block;
       
     }
+    .call_to_action h6{
+        font-size: 18px ;
+        margin-bottom: 7px;
+    }
     .call_to_action a{
-        margin-right: 15px;
+        margin-right: 5px;
         transition: 0.7s;
         
     }
@@ -960,15 +965,24 @@ footer{
         padding: 10px 20px;
        
     }
+    .call_to_action h6{
+        font-size: 15px ;
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    .call_to_action div{
+       
+        margin: auto;
+    }
     .header_dos h1{
-        font-size: 20px;
+        font-size: 15px;
         color: #fff;
         font-weight: 700;
         text-transform: uppercase;
     }
     .header_dos h2{
         color: #fff;
-        font-size: 17px;
+        font-size: 15px;
         text-transform: capitalize;
         margin-top: 5px;
     }
@@ -1159,14 +1173,14 @@ footer{
   }
   @media (max-width:380px){
     .header_dos h1{
-        font-size: 16px;
+        font-size: 12px;
         color: #fff;
         font-weight: 700;
         text-transform: uppercase;
     }
     .header_dos h2{
         color: #fff;
-        font-size: 15px;
+        font-size: 12px;
         text-transform: capitalize;
         margin-top: 5px;
     }
