@@ -705,14 +705,14 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 10px 10px;
+        padding: 10px 5px;
       
     }
     .header_dos h1{
         font-size: 20px;
         color: #fff;
         font-weight: 700;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     .header_dos h2{
         color: #fff;
@@ -962,7 +962,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
+        padding: 10px 10px;
        
     }
     .call_to_action h6{
@@ -975,10 +975,10 @@ footer{
         margin: auto;
     }
     .header_dos h1{
-        font-size: 15px;
+        font-size: 18px;
         color: #fff;
         font-weight: 700;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     .header_dos h2{
         color: #fff;
@@ -994,10 +994,13 @@ footer{
         
     
     }
+    .item_card:nth-child(1) h3{
+        font-size: 16px;
+    }
     .item_card:nth-child(1) ul li a{
         color: #fff;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 500;
     
     }
@@ -1172,15 +1175,18 @@ footer{
     
   }
   @media (max-width:380px){
+      .header_dos{
+          padding: 10px 5px;
+      }
     .header_dos h1{
-        font-size: 12px;
+        font-size: 17px;
         color: #fff;
         font-weight: 700;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     .header_dos h2{
         color: #fff;
-        font-size: 12px;
+        font-size: 15px;
         text-transform: capitalize;
         margin-top: 5px;
     }
@@ -1194,16 +1200,17 @@ footer{
     }
     .item_card:nth-child(2) h2{
         width: 100%;
-        display: block;margin-bottom: 10px;
+        display: block;
+        margin-bottom: 10px;
     }
     .item_card:nth-child(1) h3{
-        font-size: 20px;
+        font-size: 17px;
     }
     .item_card:nth-child(1) ul li{
         padding: 5px 0px;
     }
     .item_card:nth-child(1) ul li a{
-        font-size: 18px;
+        font-size: 16px;
     }
     .item_card:nth-child(3) span{
         font-size: 15px;
