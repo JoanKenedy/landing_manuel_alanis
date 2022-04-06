@@ -995,7 +995,7 @@ footer{
     
     }
     .item_card:nth-child(1) h3{
-        font-size: 16px;
+        font-size: 19px;
     }
     .item_card:nth-child(1) ul li a{
         color: #fff;
@@ -1053,6 +1053,12 @@ footer{
           flex-wrap: wrap;
           
           
+      }
+      .list h2{
+          font-size: 22px;
+      }
+      .list_treatmients li a{
+          font-size: 17px;
       }
       .menu_desplegable{
         width: 100%;
@@ -1215,6 +1221,13 @@ footer{
     .item_card:nth-child(3) span{
         font-size: 15px;
         text-align: center;
+        font-weight: 500;
+    }
+    .list h2{
+        font-size: 25px;
+    }
+    .list_treatmients li a{
+        font-size: 16px;
         font-weight: 500;
     }
   }
