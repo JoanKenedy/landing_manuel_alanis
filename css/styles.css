@@ -94,7 +94,7 @@ header{
     font-size: 35px;
     color: #fff;
     font-weight: 500;
-    text-transform: uppercase;
+    
 }
 .header_dos h2{
  color: #fff;
@@ -369,11 +369,12 @@ header{
 }
 .sub_menu p{
     text-align: justify;
+    font-size: 16px;
 }
 .sub_menu li{
     list-style-type: square;
     color: gold;
-    
+    line-height: 12px;
     font-size: 25px;
     text-align: justify;
 }
@@ -449,15 +450,19 @@ footer{
 
 .item_footer:nth-child(2){
     width: 100%;
+    background-color: #55beee;
+    
+    
+
+}
+.footer_donw{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
     text-align: center;
- background-color: #55beee;
- padding: 15px 0px;
- align-items: center;
-    
 
+ align-items: center;
+ width: 90%;
 }
 .item_footer:nth-child(2) p{
     color: #fff;
@@ -755,7 +760,7 @@ footer{
         font-size: 20px;
         color: #fff;
         font-weight: 700;
-        text-transform: capitalize;
+        
     }
     .header_dos h2{
         color: #fff;
@@ -979,7 +984,7 @@ footer{
     gap: 10px;
 }
 
-.item_footer:nth-child(2){
+.footer_donw{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1021,7 +1026,7 @@ footer{
         font-size: 18px;
         color: #fff;
         font-weight: 700;
-        text-transform: capitalize;
+        
     }
     .header_dos h2{
         color: #fff;
@@ -1234,7 +1239,7 @@ footer{
         font-size: 17px;
         color: #fff;
         font-weight: 700;
-        text-transform: capitalize;
+    
     }
     .header_dos h2{
         color: #fff;
