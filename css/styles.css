@@ -466,7 +466,7 @@ footer{
 }
 .item_footer:nth-child(2) p{
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
 }
 .item_footer:nth-child(2) p a{
     text-decoration: none;
