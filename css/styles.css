@@ -370,11 +370,12 @@ header{
 .sub_menu p{
     text-align: justify;
     font-size: 16px;
+    margin-bottom: 5px;
 }
 .sub_menu li{
     list-style-type: square;
     color: gold;
-    line-height: 12px;
+    line-height: 15px;
     font-size: 25px;
     text-align: justify;
 }
